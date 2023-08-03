@@ -1,0 +1,770 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #4c5a65;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.logo{
+    padding-left: 100px;
+    padding-top:20px;
+}
+#home{
+    margin-right:30px ;
+    border-radius: 9px;
+    background: linear-gradient(#302f2f, #595c5e);
+    border: 2px solid #303234;
+    border-radius: 17px;
+    color: #ffffff;
+    padding: 4px 17px;
+    text-align: center;
+    box-shadow:  0px 2px 2px  #403e3e;
+}
+nav{
+    height: 70px;
+    display: flex;
+    color: #fff;
+    padding-right: 160px;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+nav  ul li{
+  display: flex;
+  margin-right: 50px;
+}
+.cabecera{
+    width: 100%;
+    height: 403px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c5a65;
+
+}
+.celular{
+    width: 50%;
+    align-items: center;
+
+}
+.celular img{
+    width: 350px;
+    display: flex;
+}
+#fotoCel{
+   padding-left: 100px;
+}
+.principal{
+    width: 50%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+
+}
+#tituloP{
+    padding-top: 40px;
+    padding-left: 14px;
+    font-size: 45px;
+    color: #fff;
+}
+.contenedorPrincipal{
+    line-height: 25px;
+}
+.texto1{
+    width: 550px;
+    padding:8px ;
+    color: rgb(205, 206, 208);
+}
+.texto2{
+    width: 550px;
+    padding-left: 8px;
+    padding-bottom:60px ;
+    color: rgb(120, 121, 122);
+}
+.botones{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+.botonPrincipal{
+    background-color: #2e97e7;
+    border-radius: 20px;
+    margin:20px 40px;
+    color: #fff;
+    padding: 12px 40px;
+    background: linear-gradient(#2e97e7 40px, transparent);
+    border: #082943;
+    box-shadow:  0px 5px 5px  #302f2f;
+}
+#compu{
+    width: 20px;
+    height: 20px;
+}
+.compuTexto{
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#textPc{
+    color: #fff;
+}
+#textoPc{
+    color: #fff;
+    margin:  0 10px;
+}
+#text{
+    color: #fff;
+    margin-right: 70px;
+    height: 5px;
+    padding: 0;
+}
+.linkP{
+    text-decoration: none;
+    background-color: transparent;
+}
+/**/
+.Contenedoriconos{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 10px  #e2dede;
+    border: #f6f6f6; 
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #dbdbdd ;
+}
+.iconos{
+    height: 50px;
+}
+/**/
+.contenedorArticulos{
+    display: flex;
+    padding: 40px 50px;
+    justify-content: space-around;
+}
+.bloque{
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.title{
+    color: #4c4e4f;
+    padding: 20px 15px 20px;
+}
+.parrafoArticulo{
+    line-height: 22px;
+    color:#a1a2a3;
+}
+.botonArticulo{
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 28px;
+    border-radius: 5px;
+    background-color: #4c97d0;
+    border-color: #7abbec;
+    color: #fff;
+}
+/***********/
+.tituloCarrete{
+    height: 0; 
+    padding-top: 40px;
+    width: 200px;
+    height: 10px;
+    padding-left: 100px;
+    font-size: 12px;
+    display: flex;
+}
+.iconoInfo{
+    width: 17px;
+    height: 17px;
+    padding-right: 4px;
+}
+.carrete{
+    width: 100%;
+    height: 300px;
+}
+.fotosCarrete{
+    padding-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    border: 20px #c5c3c3;
+}
+.fotos{
+    width: 200px;
+    height: 120px;
+    display: flex;
+    margin: 40px 20px;
+    padding: 10px;
+    border: 4px solid #efecec ;
+}
+.imagenesCarrete {
+    width: 200px;
+    height: 120px;
+}
+ 
+
+.informacionImportante{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.contenedorInfo{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    line-height: 22px; 
+    padding: 30px; 
+}
+.contenedorTwit{
+    display: flex;
+}
+.colorAzul{
+    color: #4c97d0;
+}
+.colorApp{
+    color: #3a3b3c;
+}
+.fecha{
+    width: 70%;
+    height: 20px;
+    padding-top: 17px;
+    font-size: 14px;
+    color: #939393;
+}
+.linksInformacion{
+    text-decoration: none;
+    color: #4c97d0;
+}
+.itemsInfo{
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+.itemsInfo1{
+    width: 20px;
+    height: 20px;
+    padding-left: 50px;
+    padding-right: 10px ;
+}
+.info1{
+    height: 160px;
+    display: flex;
+    padding: 20px 40px;
+}
+.imagenInfo{
+    width: 150px;
+    height: 170px;
+    padding: 10px;
+}
+.imagenInformacion{
+    width: 145px;
+    height: 90px;
+    border: 4px solid #efecec ;
+    padding: 3px;
+}
+.textos{
+    padding: 10px;
+    text-justify: auto;
+    line-height: 22px;
+}
+.info2{
+    height: 160px;
+    display: flex;
+    padding: 20px 40px;
+}
+.linkInfo{
+    padding: 30px 50px;
+    width: 70%;
+    text-decoration: none;
+    color: #4c97d0;
+}
+.copy{
+    padding: 20px 40px;
+    margin-bottom: 20px; 
+}
+.linea{
+    width: 90%;
+    margin: 0 5%;
+    color: #c8c0c0;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.autor{
+    width: 200px;
+    height: 40px;
+    padding-right:170px ;
+}
+.iconosFooter{
+    width: 200px;
+    margin: 0;
+    height: 40px;
+    padding-left: 150px;
+}
+footer div img{
+    margin: 3px;
+}
+.clear{
+    clear: both;
+}
+
+@media screen and (min-width:352px) and (max-width:480px) {
+    *{
+        margin:0;
+        padding: 0;
+    }
+            header{
+            width: 100%;
+            display: flex;
+            flex-direction: column;        
+            text-align: center;
+        }
+        .logo{
+            padding: 0;
+        }
+        nav{
+            width: 100%;
+            margin-top: 15px;
+            font-size: 15px;
+            justify-content: center;
+            padding-right: 0;   
+        }
+        nav ul{
+            justify-content: center;
+            text-align: center;
+            padding-left: 50px;
+        }
+        nav  ul li{
+            display: flex;
+        }
+        #home{
+            margin-right:30px;
+        }
+        .cabecera{
+            width: 100%;
+            display: flex;
+            height: 200vh;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-between;
+        }
+        .botones{
+            width: 200px;
+            height: 100px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .celular{
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    
+        #fotoCel{
+            width: 150px;
+            padding: 0;
+            justify-content: center;
+            text-align: center;
+            align-items: center;  
+        }
+        .botonPrincipal{
+            margin-bottom: 15px;
+            padding: 7px  60px ;
+        }
+        .principal{
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+        #tituloP{
+           font-size:40px;
+           padding: 0;
+            width: 200px;
+        }
+        .contenedorPrincipal{
+            text-align: center;
+        }
+        .texto1{
+            padding-top:20px ;
+            width: 200px;
+            height: 200px;
+        }
+        .texto2{
+            width: 200px;
+            color: rgb(205, 206, 208);
+        }
+        .Contenedoriconos{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            height: 20px;
+        }
+        .iconos{
+            width: 50px;
+            height: 40px;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            margin: 10px;
+            padding-top: 10px;
+        }
+        .contenedorArticulos{
+            width: 100%;
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .bloque{
+            width: 100%;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .parrafoArticulo{
+            width: 50%;
+        }
+        .tituloCarrete{
+            padding: 0;
+            margin: 0 auto;
+        }
+        .tituloCarrete h2{
+            width: 100%;
+            height: 30px;
+            padding: 0;
+            text-align: center;
+        }
+        .carrete{
+            display: flex;
+            align-items: center;
+            height: 700px;
+            padding-bottom: 40px;
+        }
+        .fotosCarrete{
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+        .fotos{
+            margin-bottom:-10px;
+        }
+        .informacionImportante{
+            width: 100%;
+            height: 1200px;
+            flex-direction: column;
+        }
+        .contenedorInfo{
+            flex-direction: column;
+            width: 100%;
+            height: 700px;
+            padding: 20px 0;
+        }
+        .itemsInfo1{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .info1,.info2,.itemsInfo.contenedorInfo{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            padding: 20px 30px 120px 30px;
+            }
+        .linkInfo{
+            width: 100%;
+            display: flex;
+            padding: 50px 0;
+            justify-content: center;
+        }
+        .contenedorTwit,.itemsInfo1{
+            padding: 10px 0;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+        .copy,.fecha{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            padding: 0;
+        }
+        .itemsInfo, .fecha{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            flex-direction: column;
+            align-items: center;
+        }
+        .autor, .iconosFooter{
+            padding: 0; margin: 0;
+            text-align: center;
+        }
+    }
+    @media screen and (min-width: 481px) and (max-width: 768px){      
+        body{
+            height: 100vh;
+        }
+        header{
+            width: 100%;
+            flex-direction: column;
+            text-align: center;
+        }
+        .logo{
+            padding: 0;
+        }
+        nav{
+            align-items: center;
+            justify-content: center;
+            padding: 0 0 0 40px;
+        }
+        nav ul{
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+        #fotoCel{
+          width: 200px;
+          padding: 20px 0;
+          margin: 0 auto;
+        }
+        .celular{
+            width: 100%;
+        }
+        .tituloP, .contenedorPrincipal, .principal{
+            width: 100%;
+        }
+        .principal, footer, .iconosFooter, .autor{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0;
+        }
+        .botones{
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            height: 50px;
+        }
+        .cabecera{
+            flex-direction: column;
+            height: 1000px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .texto1, .texto2{
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+        }
+        .textos{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .contenedorArticulos{
+            width: 100%;
+            height: 260vh;
+            padding: 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bloque{
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .fotosCarrete{
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+        .carrete{
+            display: flex;
+            align-items: center;
+            height: 700px;
+            padding-bottom: 40px;
+        }
+        .fotos{
+            margin-bottom:-10px;
+        }
+        .informacionImportante{
+            width: 100%;
+            height: 1200px;
+            flex-direction: column;
+        }
+        .contenedorInfo{
+            flex-direction: column;
+            width: 100%;
+            height: 600px;
+            padding: 20px 0;
+        }
+        .itemsInfo1{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        .itemsInfo, .linkInfo, .contenedorTwit, .secciones, .copy{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .fecha, .linkInfo, .tituloCarrete{
+            align-items: center;
+            margin: 0 auto;
+            display: flex;
+            padding: 0;
+            justify-content: center;
+        }
+        .info1, .info2{
+            height: 300px;
+        }
+        .imagenInfo{
+            display: flex;
+            align-items: center;
+        }
+    }
+        @media screen and (min-width: 769px) and (max-width:1200px) {
+        .principal, .texto1, .texto2, .tituloP{
+            width: 400px;
+            height: 80px;
+            padding: 0;
+            margin: 0;
+        }
+        .contenedorArticulos{
+            width: 100%;
+            padding: 40px 0;
+        }
+        .botones{
+            padding-top: 30px;
+            height: 40px;
+            width: 100%;
+        }
+        .botonPrincipal{
+            margin: 0 20px 0 0;
+        }
+        .celular{
+            padding: 0;
+            margin: 0;
+            justify-content:  center;
+            align-items: center;
+            padding-top:90px;
+        }
+        #fotoCel{
+            width: 230px;
+            height: 250px;
+            margin: 0;
+            padding-top:0;
+        }
+        .informacionImportante{
+            height: 1000px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenedorInfo, .itemsInfo, .info1, .info2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .info1{
+            height: 300px;
+        }
+        .info1, .info2, .textos{
+            padding: 0 0 70px 0 ;
+            
+        }
+        .fotosCarrete{
+            width: 70%;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .carrete{
+            height: 550px;
+            margin: 0;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+        }
+        .informacionImportante{
+            width: 100%;
+            height: 250vh;
+            flex-direction: column;
+        }
+        .contenedorInfo{
+            width: 100%;
+            height: 700px;
+            padding: 0;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .textos{
+            padding: 0 30px;
+            height: 200px;
+        }
+        .copy, .contenedorTwit, .fecha{
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .fecha{
+            margin: 0 auto;
+        }
+        footer{
+            flex-direction: column;
+            align-items: center;
+        }
+        .autor, .iconosFooter{
+            padding: 0; margin: 0;
+            text-align: center;
+        }
+        .tituloCarrete, .contenedorTwit, .itemsInfo{
+        margin:0 auto; padding: 0;
+        }
+        }
+        
